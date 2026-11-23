@@ -4,391 +4,447 @@
   "updated": "2026-11-23",
   "count": 55,
   "gamerscore": 1000,
+  "images": "Pictures are linked from img.xboxachievements.com, not stored here.",
   "achievements": [
     {
       "id": 1,
-      "name": "Just Like Paradise",
-      "description": "Complete Gone Fishing.",
-      "gamerscore": 5,
-      "secret": true
-    },
-    {
-      "id": 2,
-      "name": "Paradise Lost",
-      "description": "Complete Chapter 1.",
-      "gamerscore": 20,
-      "secret": true
-    },
-    {
-      "id": 3,
-      "name": "T**s Ass Drug Money",
-      "description": "Complete Chapter 2.",
-      "gamerscore": 20,
-      "secret": true
-    },
-    {
-      "id": 4,
-      "name": "Vice City, Baby!",
-      "description": "Complete Chapter 3.",
-      "gamerscore": 20,
-      "secret": true
-    },
-    {
-      "id": 5,
-      "name": "Top Of The World, Ma",
-      "description": "Complete Chapter 4.",
-      "gamerscore": 20,
-      "secret": true
-    },
-    {
-      "id": 6,
-      "name": "You Gotta Know When to Get Off",
-      "description": "Complete the final mission.",
-      "gamerscore": 50,
-      "secret": true
-    },
-    {
-      "id": 7,
-      "name": "Trust",
-      "description": "Complete Breakfast Run.",
-      "gamerscore": 10,
-      "secret": true
-    },
-    {
-      "id": 8,
-      "name": "Break the Bank",
-      "description": "Complete The Cartel Heist.",
-      "gamerscore": 25,
-      "secret": true
-    },
-    {
-      "id": 9,
-      "name": "Family Matters",
-      "description": "Complete Child's Play.",
-      "gamerscore": 15,
-      "secret": true
-    },
-    {
-      "id": 10,
-      "name": "DWNFALL",
-      "description": "Complete Headliners.",
-      "gamerscore": 15,
-      "secret": true
-    },
-    {
-      "id": 11,
-      "name": "Hi-Jacked",
-      "description": "Complete VCIA Takedown.",
-      "gamerscore": 25,
-      "secret": true
-    },
-    {
-      "id": 12,
-      "name": "Snow Storm",
-      "description": "Complete Operation Savage Glory.",
-      "gamerscore": 25,
-      "secret": true
-    },
-    {
-      "id": 13,
       "name": "A Long Road",
       "description": "Attain 100% Completion.",
       "gamerscore": 100,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/26/f2817b3a-aa2b-491b-9173-57fc9066c7cd-lo.jpg"
     },
     {
-      "id": 14,
+      "id": 2,
       "name": "Cunning Stunts",
       "description": "Complete 250 Stunts.",
       "gamerscore": 40,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/13/c7b4da8f-d4c7-4b3d-96a0-9cbc1f827a0f-lo.jpg"
     },
     {
-      "id": 15,
+      "id": 3,
       "name": "Master of None",
       "description": "Try each type of activity once.",
       "gamerscore": 20,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/48/aa8edb66-444a-44c9-b8f4-e52d478e91c2-lo.jpg"
     },
     {
-      "id": 16,
+      "id": 4,
       "name": "The Shootist",
       "description": "Earn a gold medal in all Shooting Range challenges.",
       "gamerscore": 40,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/13/7f81ce02-9e5a-49ab-a968-4de248bdc96f-lo.jpg"
     },
     {
-      "id": 17,
+      "id": 5,
       "name": "Top Fun",
       "description": "Win a Top Fun Drone Race at every location.",
       "gamerscore": 15,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/28/a5a3e7f5-38d4-460b-b1bb-6f4160e8c235-lo.jpg"
     },
     {
-      "id": 18,
+      "id": 6,
       "name": "Earn Cash, Not Kudos",
       "description": "Win 20 different races.",
       "gamerscore": 20,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/1/dfbf890d-d8fd-4ea2-b857-4fe10680f43a-lo.jpg"
     },
     {
-      "id": 19,
+      "id": 7,
       "name": "Baited My Tackle",
       "description": "Beat Cal in a fishing challenge.",
       "gamerscore": 10,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/43/6a3a8b31-c2d8-4f9d-85cf-be7659bc2d90-lo.jpg"
     },
     {
-      "id": 20,
+      "id": 8,
       "name": "Stick Fiddler",
       "description": "Complete an arcade game.",
       "gamerscore": 10,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/20/c6a26d32-a1ab-4560-be1a-92cade080e0b-lo.jpg"
     },
     {
-      "id": 21,
-      "name": "Road to Rehabilitation",
-      "description": "Complete the final mission for Andy.",
-      "gamerscore": 15,
-      "secret": true
-    },
-    {
-      "id": 22,
-      "name": "This Was No Boat Accident",
-      "description": "Complete the final mission for Kenton.",
-      "gamerscore": 15,
-      "secret": true
-    },
-    {
-      "id": 23,
-      "name": "The Lone Rider",
-      "description": "Complete the final mission for Billy.",
-      "gamerscore": 15,
-      "secret": true
-    },
-    {
-      "id": 24,
+      "id": 9,
       "name": "Strangers & Freaks",
       "description": "Complete 8 mission strands for strangers across the state of Leonida.",
       "gamerscore": 30,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/6/06a76abd-457c-42db-960f-526af575a215-lo.jpg"
     },
     {
-      "id": 25,
-      "name": "Supply & Demand",
-      "description": "Complete the final mission for Randy.",
-      "gamerscore": 20,
-      "secret": true
-    },
-    {
-      "id": 26,
-      "name": "Spin On This!",
-      "description": "Complete the final mission for Tyrone.",
-      "gamerscore": 15,
-      "secret": true
-    },
-    {
-      "id": 27,
+      "id": 10,
       "name": "Positive Mental Attitude",
       "description": "Meditate at every spot across Leonida.",
       "gamerscore": 10,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/49/b44caa79-9460-4a7e-8a10-d4d13faca680-lo.jpg"
     },
     {
-      "id": 28,
-      "name": "Fair Game",
-      "description": "Hunt a unique animal for Bret.",
-      "gamerscore": 15,
-      "secret": true
-    },
-    {
-      "id": 29,
+      "id": 11,
       "name": "Don't Touch My Deck",
       "description": "Complete 3 Collectible Card sets.",
       "gamerscore": 30,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/26/1b4c4487-8181-41b3-ae6c-2d39e0ed2366-lo.jpg"
     },
     {
-      "id": 30,
+      "id": 12,
       "name": "You WAiNKer!",
       "description": "WAiNK It at 100 locations.",
       "gamerscore": 30,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/21/b4fa11ca-af1d-4acd-b505-feb05fc034aa-lo.jpg"
     },
     {
-      "id": 31,
+      "id": 13,
       "name": "One Last Thing",
       "description": "Complete 50 Challenges.",
       "gamerscore": 5,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/18/8d393eae-488d-4d9d-86c9-c4928ed5e78d-lo.jpg"
     },
     {
-      "id": 32,
+      "id": 14,
       "name": "Hot Together",
       "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
       "gamerscore": 20,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/41/7fd13aab-4239-4097-ad74-745845f705f4-lo.jpg"
     },
     {
-      "id": 33,
+      "id": 15,
       "name": "Retail Therapy",
       "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
       "gamerscore": 20,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/39/ed84f039-4473-4ac4-93e5-19a84ac04bdd-lo.jpg"
     },
     {
-      "id": 34,
+      "id": 16,
       "name": "Whip It Good",
       "description": "Discover 100 vehicles.",
       "gamerscore": 20,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/13/1cb78dd0-018b-480f-a76c-9fc1f1132ccd-lo.jpg"
     },
     {
-      "id": 35,
+      "id": 17,
       "name": "Gunslinger",
       "description": "Take down 5 enemies in a single use of Combat Focus.",
       "gamerscore": 10,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/17/e1b52c51-4674-4930-8afb-c91b9ab0dde8-lo.jpg"
     },
     {
-      "id": 36,
-      "name": "Catch Me If You Can",
-      "description": "Make an unscheduled departure at VCIA.",
-      "gamerscore": 10,
-      "secret": true
-    },
-    {
-      "id": 37,
-      "name": "Challenging Tank",
-      "description": "Kinda hot in these Rhinos.",
-      "gamerscore": 10,
-      "secret": true
-    },
-    {
-      "id": 38,
+      "id": 18,
       "name": "Sneakthief",
       "description": "Rob a jewelry store without being detected.",
       "gamerscore": 10,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/43/1b28a421-d6ab-4725-8b7b-296bcf7820b1-lo.jpg"
     },
     {
-      "id": 39,
+      "id": 19,
       "name": "Maximum Withdrawal",
       "description": "Rob 5 Bank Vaults and escape.",
       "gamerscore": 40,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/27/c492f8b8-74ce-4723-83fc-7da3414f9eb8-lo.jpg"
     },
     {
-      "id": 40,
+      "id": 20,
       "name": "A Classic Blitz Play",
       "description": "Rob an Armored Truck and escape.",
       "gamerscore": 10,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/19/a01fd08b-0145-46fe-aa9b-55f0a799ce0a-lo.jpg"
     },
     {
-      "id": 41,
+      "id": 21,
       "name": "The Goodtime State",
       "description": "Explore all of Leonida.",
       "gamerscore": 20,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/20/3fd9cab5-1455-43b9-a6ac-49c5076d4766-lo.jpg"
     },
     {
-      "id": 42,
+      "id": 22,
       "name": "Pest Control",
       "description": "Rob an Illegal Operation belonging to each gang.",
       "gamerscore": 20,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/20/d6f7a1eb-b6b5-401c-9142-b20317251659-lo.jpg"
     },
     {
-      "id": 43,
-      "name": "In The Beginning…",
-      "description": "Enjoy a cocktail with a view on Ocean Beach.",
-      "gamerscore": 5,
-      "secret": true
-    },
-    {
-      "id": 44,
-      "name": "Capital Offense",
-      "description": "Smash your way out of a vehicle showroom in classic style.",
-      "gamerscore": 5,
-      "secret": true
-    },
-    {
-      "id": 45,
-      "name": "Let’s Go Bowling",
-      "description": "Follow-through at the Kolt & Associates' bowling alley.",
-      "gamerscore": 5,
-      "secret": true
-    },
-    {
-      "id": 46,
-      "name": "Personal Best",
-      "description": "A partnership with mass appeal.",
-      "gamerscore": 5,
-      "secret": true
-    },
-    {
-      "id": 47,
-      "name": "Actions Speak Louder",
-      "description": "Choices made (for better or worse).",
-      "gamerscore": 5,
-      "secret": true
-    },
-    {
-      "id": 48,
-      "name": "Bad Luck, I Guess",
-      "description": "Second time's the charm.",
-      "gamerscore": 5,
-      "secret": true
-    },
-    {
-      "id": 49,
-      "name": "The Truth Is Out There",
-      "description": "What the hell just happened?",
-      "gamerscore": 5,
-      "secret": true
-    },
-    {
-      "id": 50,
-      "name": "Ten Pin",
-      "description": "Bowl 'em over with a melee drive-by.",
-      "gamerscore": 5,
-      "secret": true
-    },
-    {
-      "id": 51,
+      "id": 23,
       "name": "Dime on the Dollar",
       "description": "Earn $250,000 laundering Marked Bills through your contacts.",
       "gamerscore": 20,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/22/54754c4b-ab03-4207-93b0-4666ef82d540-lo.jpg"
     },
     {
-      "id": 52,
+      "id": 24,
       "name": "Treat Yo Self",
       "description": "Spend $100,000 across all shops.",
       "gamerscore": 15,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/17/8910015c-d9e0-4520-b629-81c16641690b-lo.jpg"
     },
     {
-      "id": 53,
+      "id": 25,
       "name": "Little Boxes",
       "description": "Purchase all garage properties.",
       "gamerscore": 15,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/31/2d6738fc-8fe3-406a-88ca-318c43959669-lo.jpg"
     },
     {
-      "id": 54,
+      "id": 26,
       "name": "On the Spot",
       "description": "Register 10 vehicles to the Scooter Bros app.",
       "gamerscore": 15,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/45/2c045b87-dd3f-45d7-8b45-a06d38e4f28e-lo.jpg"
     },
     {
-      "id": 55,
+      "id": 27,
       "name": "Vice Got a Price!",
       "description": "Congratulations! You're a Leonida Legend.",
       "gamerscore": 0,
-      "secret": false
+      "secret": false,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/25/c12ffe7f-c828-4a6c-83ef-d1c896a81644-lo.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Just Like Paradise",
+      "description": "Complete Gone Fishing.",
+      "gamerscore": 5,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/32/5f1a03e3-ce70-4c33-ae81-4599dbb669c8-lo.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Paradise Lost",
+      "description": "Complete Chapter 1.",
+      "gamerscore": 20,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/10/c5795ca9-183e-446e-815d-c719b4639c31-lo.jpg"
+    },
+    {
+      "id": 30,
+      "name": "T**s Ass Drug Money",
+      "description": "Complete Chapter 2.",
+      "gamerscore": 20,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/25/ee7c5252-fd73-4294-8ffd-e9fa0e91a850-lo.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Vice City, Baby!",
+      "description": "Complete Chapter 3.",
+      "gamerscore": 20,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/50/7fec8a2d-c21c-4c86-9f97-8e0943d371d6-lo.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Top Of The World, Ma",
+      "description": "Complete Chapter 4.",
+      "gamerscore": 20,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/39/54cc1952-a141-48ca-b0c8-6d0e40f33e7a-lo.jpg"
+    },
+    {
+      "id": 33,
+      "name": "You Gotta Know When to Get Off",
+      "description": "Complete the final mission.",
+      "gamerscore": 50,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/3/dbcac0d8-873a-4793-ba23-5f058a6422bc-lo.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Trust",
+      "description": "Complete Breakfast Run.",
+      "gamerscore": 10,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/8/91906994-feaa-4be2-a5c9-7a8ad3191daa-lo.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Break the Bank",
+      "description": "Complete The Cartel Heist.",
+      "gamerscore": 25,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/17/ac710b70-58d3-4da2-a5c8-d75ea0899ee7-lo.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Family Matters",
+      "description": "Complete Child's Play.",
+      "gamerscore": 15,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/49/89ec5feb-480e-47e0-bac7-1d56a01a9948-lo.jpg"
+    },
+    {
+      "id": 37,
+      "name": "DWNFALL",
+      "description": "Complete Headliners.",
+      "gamerscore": 15,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/5/438d7804-698c-49fc-b3a3-1e3bb52d0d2a-lo.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Hi-Jacked",
+      "description": "Complete VCIA Takedown.",
+      "gamerscore": 25,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/19/da3ae079-c5e6-42f2-b63a-5a793ba425b6-lo.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Snow Storm",
+      "description": "Complete Operation Savage Glory.",
+      "gamerscore": 25,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/11/a707da0f-de8c-4f59-929d-746b09947a75-lo.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Road to Rehabilitation",
+      "description": "Complete the final mission for Andy.",
+      "gamerscore": 15,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/17/476f3a46-8421-4f22-b44b-7a1674b8043e-lo.jpg"
+    },
+    {
+      "id": 41,
+      "name": "This Was No Boat Accident",
+      "description": "Complete the final mission for Kenton.",
+      "gamerscore": 15,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/3/8bd2f890-a8d6-4ae0-9d05-0e54f5b8bc94-lo.jpg"
+    },
+    {
+      "id": 42,
+      "name": "The Lone Rider",
+      "description": "Complete the final mission for Billy.",
+      "gamerscore": 15,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/40/b2477900-4b5a-42b0-a6cd-a51d42b43667-lo.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Supply & Demand",
+      "description": "Complete the final mission for Randy.",
+      "gamerscore": 20,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/10/42f52f3f-01d1-4222-a0c0-1d9159e18ed8-lo.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Spin On This!",
+      "description": "Complete the final mission for Tyrone.",
+      "gamerscore": 15,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/47/3b4f1a14-3ca2-4cc4-ab69-be99f6c5196e-lo.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Fair Game",
+      "description": "Hunt a unique animal for Bret.",
+      "gamerscore": 15,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/26/53f674e8-29b2-469e-add8-47a5eb81ca7b-lo.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Catch Me If You Can",
+      "description": "Make an unscheduled departure at VCIA.",
+      "gamerscore": 10,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/19/c0b288f6-c211-4d16-925a-31a0c93d47de-lo.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Challenging Tank",
+      "description": "Kinda hot in these Rhinos.",
+      "gamerscore": 10,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/27/f5d10d17-7a3e-44ea-afb2-9489b53f7290-lo.jpg"
+    },
+    {
+      "id": 48,
+      "name": "In The Beginning…",
+      "description": "Enjoy a cocktail with a view on Ocean Beach.",
+      "gamerscore": 5,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/9/059d7ca4-8e2d-4ed9-a634-7a36d39f3e25-lo.jpg"
+    },
+    {
+      "id": 49,
+      "name": "Capital Offense",
+      "description": "Smash your way out of a vehicle showroom in classic style.",
+      "gamerscore": 5,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/32/42173d36-e4be-4a50-b8c9-3aa3153fe9cb-lo.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Let’s Go Bowling",
+      "description": "Follow-through at the Kolt & Associates' bowling alley.",
+      "gamerscore": 5,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/16/f39fda79-adef-46ff-a421-f2a809a379e1-lo.jpg"
+    },
+    {
+      "id": 51,
+      "name": "Personal Best",
+      "description": "A partnership with mass appeal.",
+      "gamerscore": 5,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/26/ffebc2e8-75f3-46c7-95fe-5c51fbcaf376-lo.jpg"
+    },
+    {
+      "id": 52,
+      "name": "Actions Speak Louder",
+      "description": "Choices made (for better or worse).",
+      "gamerscore": 5,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/41/4e49306f-f651-4c3b-99c3-2b0f0051017f-lo.jpg"
+    },
+    {
+      "id": 53,
+      "name": "Bad Luck, I Guess",
+      "description": "Second time's the charm.",
+      "gamerscore": 5,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/40/3e52b6a6-b2c7-4d95-bb36-4080d6df182b-lo.jpg"
+    },
+    {
+      "id": 54,
+      "name": "The Truth Is Out There",
+      "description": "What the hell just happened?",
+      "gamerscore": 5,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/31/eebb9a5f-69d4-4840-a2bf-b908dd5f681a-lo.jpg"
+    },
+    {
+      "id": 55,
+      "name": "Ten Pin",
+      "description": "Bowl 'em over with a melee drive-by.",
+      "gamerscore": 5,
+      "secret": true,
+      "image": "https://img.xboxachievements.com/images/monthly_2026_11/game/40/38d9a8f2-8e59-4b8f-a5a7-b9ec2eb211e7-lo.jpg"
     }
   ]
 }
