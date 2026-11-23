@@ -19,24 +19,25 @@ https://raw.githubusercontent.com/Dom-in/Gta6AchivmentsList/main/achievements.js
   "gamerscore": 1000,
   "achievements": [
     { "id": 1, "name": "…", "description": "…", "gamerscore": 5, "secret": true,
-      "image": "https://img.xboxachievements.com/…-lo.jpg" }
+      "image": "images/01-a-long-road.jpg" }
   ]
 }
 ```
 
 - `id`: the order the list is in, from 1. It is not Microsoft's achievement ID.
 - `secret`: the achievement is hidden on Xbox until it unlocks; the launcher hides its description until you click it.
-- `image`: where the achievement's picture is, on XboxAchievements.com's image server. The pictures are not stored
-  in this repository; the launcher downloads them from there and keeps a copy on the PC.
+- `image`: the achievement's picture in this repository, 480 × 270 JPEG, relative to the repository's root:
+  `https://raw.githubusercontent.com/Dom-in/Gta6AchivmentsList/main/<image>`. The launcher downloads them and keeps a
+  copy on the PC.
 
 ## Updating it
 
 1. Open the game's achievements page on XboxAchievements.com in a browser and save it (Ctrl+S).
-2. `python -I tools/from_xboxachievements.py "<saved page>.html" achievements.json`
-3. Commit `achievements.json`.
+2. `python -I tools/from_xboxachievements.py "<saved page>.html" achievements.json` (needs Pillow)
+3. Commit `achievements.json` and `images/`.
 
-The script keeps each achievement's name, description, gamerscore, whether it is secret and its picture's address,
-and nothing else from the page. `tools/from_saved_page.py` does the same from a saved TrueAchievements page (without
+The script keeps each achievement's name, description, gamerscore and whether it is secret, and downloads its
+picture from the site's image server into `images/`; nothing else from the page is kept. `tools/from_saved_page.py` does the same from a saved TrueAchievements page (without
 pictures); on 2026-11-23 the two sites agreed on all 55 names, descriptions, gamerscores and secrets.
 
 ## Notes

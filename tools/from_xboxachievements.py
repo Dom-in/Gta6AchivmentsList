@@ -2,14 +2,44 @@
 
     python -I tools/from_xboxachievements.py "<saved page>.html" achievements.json
 
-Keeps each achievement's name, description, gamerscore, whether it is secret, and the address of its picture on
-XboxAchievements' image server. The pictures themselves are not copied into this repository: the launcher loads
-them from that address.
+Keeps each achievement's name, description, gamerscore and whether it is secret, and saves its picture to
+images/ (the site's 730 x 410 one, scaled to 480 x 270; Pillow is needed). "image" is that file's path.
 """
 import datetime
 import html.parser
+import io
 import json
+import os
+import re
 import sys
+import time
+import urllib.request
+
+from PIL import Image
+
+AGENT = {"User-Agent": "Gta6AchivmentsList/1.0"}
+
+
+def fetch(url):
+    data = urllib.request.urlopen(urllib.request.Request(url, headers=AGENT), timeout=20).read()
+    if data[:2] != bytes([0xFF, 0xD8]):
+        raise ValueError(f"not a JPEG: {url}")
+    return data
+
+
+def save_picture(a, folder):
+    """The site's medium picture (its small one when there is none), 480 pixels wide, as images/NN-name.jpg."""
+    try:
+        data = fetch(a["image"].replace("-lo.jpg", "-med.jpg"))
+    except Exception:
+        data = fetch(a["image"])
+    im = Image.open(io.BytesIO(data)).convert("RGB")
+    if im.width > 480:
+        im = im.resize((480, round(im.height * 480 / im.width)), Image.LANCZOS)
+    slug = re.sub(r"[^a-z0-9]+", "-", a["name"].lower()).strip("-")
+    path = f"images/{a['id']:02d}-{slug}.jpg"
+    im.save(os.path.join(folder, path), "JPEG", quality=88, optimize=True, progressive=True)
+    return path
 
 
 class Page(html.parser.HTMLParser):
@@ -80,14 +110,20 @@ def main():
         "updated": datetime.date.today().isoformat(),
         "count": len(items),
         "gamerscore": sum(i["gamerscore"] for i in items),
-        "images": "Pictures are linked from img.xboxachievements.com, not stored here.",
+        "images": "Each achievement's picture is in images/, at the path in its \"image\" field.",
         "achievements": items,
     }
+    folder = os.path.dirname(os.path.abspath(sys.argv[2]))
+    os.makedirs(os.path.join(folder, "images"), exist_ok=True)
+    for it in items:
+        if it["image"]:
+            it["image"] = save_picture(it, folder)
+            time.sleep(0.2)
     with open(sys.argv[2], "w", encoding="utf-8", newline="\n") as f:
         json.dump(doc, f, ensure_ascii=False, indent=2)
         f.write("\n")
     print(f"{len(items)} achievements, {doc['gamerscore']} gamerscore, {sum(i['secret'] for i in items)} secret, "
-          f"{sum(bool(i['image']) for i in items)} with a picture")
+          f"{sum(bool(i['image']) for i in items)} pictures in images/")
 
 
 if __name__ == "__main__":
