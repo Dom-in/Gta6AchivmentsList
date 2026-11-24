@@ -1,7 +1,7 @@
 # GTA VI achievements list
 
 The achievement list of Grand Theft Auto VI (Xbox Series X|S) as one JSON file, for
-[Leonida Launcher](https://github.com/ItsNotRexed/Leonida/pull/5859)'s Achievements page, which downloads it when the
+Leonardo Launcher's Achievements page, which downloads it when the
 launcher starts.
 
 ```
